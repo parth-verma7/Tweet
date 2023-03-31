@@ -1,0 +1,36 @@
+Generative Adversarial Networks (GAN's) are generative models that can be used to generate Text, Images, Video, Audio and 3D Models etc. It is both Superwise and Unsuperwise in nature. 
+It has a combination of two networks - 
+1) Generator 
+2) Discriminator
+With a dataset in hand, the main aim of Generator is - we feed the Generator with a set of real images, and it has to create fake images from it. ( Unsuperwise Learning )
+And the task of Discriminator would be to identify  whether an images is real or fake. ( Superwise Learning )
+Our main aim of using GAN's is to create images that are inspired from the real images. 
+This is how the procedure works - 
+i) We first freeze the Generator and train the Discriminator that this is the real data.
+ii) Then we freeze the Discriminator and feed the Generator with noise added to it so that it starts creating fake images similar to the real dataset.
+iii) Then the task of discriminator would be to check whether the image is real or fake, actually our task would accomplish if we successfully fool the discriminator. 
+iv) With the help of sigmoid function, Discriminator identifieds whether the image is real or fake (0 or 1). If we successfully fools the discriminator that the fake image given to it real, we succeeds.
+ 
+GAN's have a variety of applications, such as :-
+i) Text to text generation
+ii) Text to image generation
+iii) Image to text geenration
+iv) Image to Image generation
+v) Next frame prediction in a Video
+
+In GAN's there are various parameters such as - Leaky Relu, Batch Normalization, CNN architecture etc.. 
+Various types of GAN's are - 
+i) Vanilla GAN
+ii) Conditional Gan (CGAN)
+iii) Deep Convolutional GAN (DCGAN)
+iv) CycleGAN
+v) Generative Adversarial Text to Image Synthesis
+vi) Style GAN
+vii) Super Resolution GAN (SRGAN)
+viii) Disco GAN
+
+In the upcoming tweets, I will be discussing about the type of GAN's, their applications, their codes and various other hyper parameters.
+
+
+Generative Adversarial Networks are generative models that can be used for Text to Text generation, Text to Image conversion (prompt based), Image to Image conversion such as Creating a high-resolution image.
+
