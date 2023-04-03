@@ -1,0 +1,12 @@
+CGAN, these take care of the labels, earlier in Vanilla GAN, images were generated but here CGANs particularly useful in tasks such as image-to-image translation, where the aim is to transform an input image to a desired output image while preserving certain features.
+
+CGAN (Conditional GAN) - applications:
+i)Image-to-Image Translation: CGANs have been used to perform image-to-image translation tasks, where the aim is to transform an input image to a desired output image while preserving certain features. For example, CGANs have been used to convert sketches to realistic images, change the day-time of an outdoor scene, and even to transform black and white images to colored ones.
+
+ii)Data Augmentation: CGANs can be used to generate synthetic data to augment a training set for machine learning models. For instance, CGANs have been used to generate synthetic images to train image classification models, and to generate synthetic text data to train language models.
+
+iii)Style Transfer: CGANs can be used to transfer the style of one image to another image. This can be useful for generating new artworks or for creating realistic images in computer games and animations.
+
+iv)Text-to-Image Synthesis: CGANs can be used to generate realistic images from textual descriptions. This can be useful in applications such as virtual reality and video games.
+
+
