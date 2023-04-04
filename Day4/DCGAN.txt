@@ -1,0 +1,3 @@
+Deep Convolutional GAN
+Use of Convolutional layers insteas of fully connected layers
+Uses upsampling that allows the network to generate images of higher resolution. 
