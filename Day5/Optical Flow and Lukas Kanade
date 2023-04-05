@@ -1,0 +1,9 @@
+Optical Flow: The uses of optical flow is mainly in the field of Object Tracking. The optical flow can be used as an estimation of object velocity and position of object in the next frame. 
+
+Optical flow is a technique used to describe image motion. It is usually applied to a series of images that have a small time step between them, for example, video frames. 
+Optical flow calculates a velocity for points within the images, and provides an estimation of where points could be in the next image sequence.
+
+
+The Lucas-Kanade optical flow algorithm is a simple technique which can provide an estimate of the movement of interesting features in successive
+images of a scene. We would like to associate a movement vector (u, v) to every such ”interesting” pixel in the scene, obtained by comparing the two
+consecutive images.
