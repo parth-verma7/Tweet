@@ -1,0 +1,19 @@
+Clustering:
+It is basically a type of unsupervised learning method. An unsupervised learning method is a method in which we draw references from datasets consisting of input data without labeled responses. Generally, it is used as a process to find meaningful structure, explanatory underlying processes, generative features, and groupings inherent in a set of examples. 
+
+Clustering is the task of dividing the population or data points into a number of groups such that data points in the same groups are more similar to other data points in the same group and dissimilar to the data points in other groups. It is basically a collection of objects on the basis of similarity and dissimilarity between them. 
+
+Types of Clustering:
+K-means clustering: K-means is a popular partitioning-based clustering algorithm that groups data points into k clusters by minimizing the variance within each cluster. It requires specifying the number of clusters (k) in advance and randomly initializing cluster centroids, then iteratively updating centroids and re-assigning data points to the nearest centroid until convergence is reached.
+
+Hierarchical clustering: Hierarchical clustering is a type of clustering that creates a tree-like structure of clusters, also known as a dendrogram. It can be either agglomerative, where each data point starts as its own cluster and is merged iteratively based on certain distance or similarity measures, or divisive, where all data points start in a single cluster and are recursively split into smaller clusters.
+
+Density-based clustering: Density-based clustering algorithms identify clusters based on the density of data points in a particular region of the feature space. Examples of density-based clustering algorithms include DBSCAN (Density-Based Spatial Clustering of Applications with Noise) and OPTICS (Ordering Points To Identify the Clustering Structure).
+
+Partitioning-based clustering: Partitioning-based clustering algorithms divide the data into non-overlapping partitions or clusters. Examples of partitioning-based clustering algorithms include K-means, K-medoids, and Fuzzy C-means.
+
+Prototype-based clustering: Prototype-based clustering algorithms involve creating prototypes, such as centroids or exemplars, to represent clusters, and assigning data points to the closest prototype. Examples of prototype-based clustering algorithms include K-means, K-prototype, and Self-Organizing Maps (SOMs).
+
+Model-based clustering: Model-based clustering algorithms assume that the data is generated from a statistical model and aim to estimate the parameters of the model to identify clusters. Examples of model-based clustering algorithms include Gaussian Mixture Model (GMM) and Latent Dirichlet Allocation (LDA).
+
+Spectral clustering: Spectral clustering is a type of clustering that uses linear algebra techniques to transform the data into a lower-dimensional space and perform clustering in that space. It is particularly useful for clustering data with complex or nonlinear structures.
